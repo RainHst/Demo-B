@@ -1,0 +1,22 @@
+#
+#Fri Oct 23 10:05:05 GMT 2015
+VERSION=1.0.0.1
+DEBUG=true
+scope=user
+authorize_URL=/oauth/authorize
+access_token_URL=/oauth/token
+get_openID_URL=/oauth/me
+get_user_info_URL=/user/get_user_info
+get_user_extension=/user/get_user_extension
+direct_get_user_extension_URL=/user/direct_get_user_extension
+direct_bind_user_extension_URL=/user/direct_bind_user_extension
+bind_user_extension_request_URL=/user/direct_bind_user_extension
+extension1=2.4.1.12
+extension2=2.4.1.13
+parse_user_cert_URL=/user/parse_user_cert
+app_ID=6aea93116c554b3d9f1353a63a3c9e0d
+app_KEY=B7s9YY1a
+oauth_base_URL=https\://192.168.10.53/oauth2
+openapi_base_URL=https\://192.168.10.53/openapi
+redirect_URI=http\://192.168.10.120\:8080/account?action=callback
+login_mode=3
